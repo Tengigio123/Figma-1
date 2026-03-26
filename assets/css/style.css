@@ -8,4 +8,27 @@ html{
 
 body{
     font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
 }
+
+.Header {
+    display: flex;
+}
+
+.nav{
+    margin-left: auto;
+}
+.nav ul{
+    display: flex;
+}
+
+.nav a{
+    padding: 40px;
+    color: #171100;
+}
+
+.nav a:hover{
+    color: #171100;;
+    text-shadow: 1px 0  currentColor;
+}
+
